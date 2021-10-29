@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+p {
+	font-size: 16px;
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
