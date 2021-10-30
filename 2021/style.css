@@ -58,19 +58,12 @@ ul.menu li:hover {
 /* Between 5.5*1.5 inches and 5.5*3 */
 @media (min-width: 793px) and (max-width: 1320px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
-		margin: 0px;
+		margin: auto;
 		width: 50%;
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 		border-radius: 25px;
 		border: 5px solid #916151;
-	}
-	.chapter .page:nth-child(odd) {
-		clear: left;
-		float: left;
-	}
-	.chapter .page:nth-child(even) {
-		float: left;
 	}
 
 }
@@ -81,7 +74,7 @@ ul.menu li:hover {
 	}
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		width: 33.33%;
-		float: left;
+		margin: auto;
 		background-color: #E0C9A6; /* Old Paper Color */
 		border-radius: 25px;
 		border: 5px solid #916151;
