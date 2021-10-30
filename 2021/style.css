@@ -21,24 +21,32 @@ h2 {
 
 
 /* Less than a page width (8.5 inches) */
-@media (max-length: 816px) {
-	/* Do nothing, because it should just render as normal */
+@media (max-length: 1224px) {
+	body.chapter {
+		background-color: #E0C9A6; /* Old Paper Color */
+		color: black;
+	}
 }
 
-@media (min-length: 817px) and (max-length: 1632px) {
+@media (min-length: 1225px) and (max-length: 2448px) {
 	
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		width: 50%;
 		float: left;
-		background-color: #E0C9A6;
+		background-color: #E0C9A6; /* Old Paper Color */
+		color: black;
+		border-radius: 25px;
+		border: 5px solid #916151;
 	}
 
 }
 
-@media (min-length: 1633) {
-	.page {
+@media (min-length: 2449) {
+	.page { /* Applies to a overarching div, which contains sub-elements */
 		width: 816px;
 		float: left;
-		background-color: #E0C9A6;
+		background-color: #E0C9A6; /* Old Paper Color */
+		border-radius: 25px;
+		border: 5px solid #916151;
 	}
 }
