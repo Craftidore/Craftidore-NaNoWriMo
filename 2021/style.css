@@ -1,3 +1,4 @@
+/* Applies to everything */
 * {
 	box-sizing: border-box;
 }
@@ -16,17 +17,40 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 }
+
+/* Menu and Header */
+ul.menu {
+	padding-inline-start: 0px;
+	padding: 5px;
+	margin: 25px;
+	width: 150px;
+	background-color: #444455;
+}
+ul.menu li {
+	margin: 5px;
+	list-style: none;
+	background-color: #8585ad;
+	border-radius: 10px;
+	text-align: center;
+}
+ul.menu li a:link, ul.menu li a:visited {
+	color: blue;
+}
+ul.menu li:hover {
+	background-color: #ffffff;
+}
+/* Classes specific to the book */
 .subtitle {
 	font-style: italic;
 }
-.sectionbreak {
+.sectionbreak { /* Meant to be used with <div class="sectionbreak">***</div> */
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 }
-
 /* Less than a page width * 1.5 (5.5*1.5 inches) */
 @media (max-width: 792px) {
-	body.chapter {
+	.chapter {
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 	}
@@ -34,17 +58,18 @@ h2 {
 /* Between 5.5*1.5 inches and 5.5*3 */
 @media (min-width: 793px) and (max-width: 1320px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
+		margin: 0px;
 		width: 50%;
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 		border-radius: 25px;
 		border: 5px solid #916151;
 	}
-	body.chapter .page:nth-child(odd) {
+	.chapter .page:nth-child(odd) {
 		clear: left;
 		float: left;
 	}
-	body.chapter .page:nth-child(even) {
+	.chapter .page:nth-child(even) {
 		float: left;
 	}
 
