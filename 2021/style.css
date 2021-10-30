@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Times New Roman, Times, serif;
+}
+p {
+	font-size: 16px;
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+.subtitle {
+	font-style: italic;
+}
+
+
+/* Less than a page width (8.5 inches) */
+@media (max-length: 816px) {
+	/* Do nothing, because it should just render as normal */
+}
+
+@media (min-length: 817px) and (max-length: 1632px) {
+	
+	.page { /* Applies to a overarching div, which contains sub-elements */
+		width: 50%;
+		float: left;
+		background-color: #E0C9A6;
+	}
+
+}
+
+@media (min-length: 1633) {
+	.page {
+		width: 816px;
+		float: left;
+		background-color: #E0C9A6;
+	}
+}
