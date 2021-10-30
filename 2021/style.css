@@ -44,7 +44,6 @@ ul.menu li:hover {
 	font-style: italic;
 }
 .sectionbreak { /* Meant to be used with <div class="sectionbreak">***</div> */
-	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 }
@@ -52,6 +51,8 @@ ul.menu li:hover {
 @media (max-width: 792px) {
 	.chapter {
 		background-color: #E0C9A6; /* Old Paper Color */
+		background-image: url("./Paper.jpg");
+		background-size: 100px;
 		color: black;
 	}
 }
@@ -59,11 +60,13 @@ ul.menu li:hover {
 @media (min-width: 793px) and (max-width: 1320px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		margin: auto;
+		margin-top: 5%;
+		padding: 5%;
 		width: 50%;
 		background-color: #E0C9A6; /* Old Paper Color */
+		background-image: url("./Paper.jpg");
+		background-size: 300px;
 		color: black;
-		border-radius: 25px;
-		border: 5px solid #916151;
 	}
 
 }
@@ -73,11 +76,16 @@ ul.menu li:hover {
 		clear: left;
 	}
 	.page { /* Applies to a overarching div, which contains sub-elements */
-		width: 33.33%;
 		margin: auto;
+		margin-top: 5%;
+		padding: 5%;
+		width: 33.33%;
 		background-color: #E0C9A6; /* Old Paper Color */
-		border-radius: 25px;
-		border: 5px solid #916151;
+		background-image: url("./Paper.jpg");
+		background-size: 500px;
+		color: black;
 	}
-
+	.page p {
+		font-size: 0.75vw;
+	}
 }
