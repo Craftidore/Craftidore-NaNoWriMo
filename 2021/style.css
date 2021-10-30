@@ -24,15 +24,15 @@ h2 {
 	text-align: center;
 }
 
-/* Less than a page width (8.5 inches) */
-@media (max-width: 1224px) {
+/* Less than a page width * 1.5 (5.5*1.5 inches) */
+@media (max-width: 792px) {
 	body.chapter {
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 	}
 }
-
-@media (min-width: 1225px) and (max-width: 2448px) {
+/* Between 5.5*1.5 inches and 5.5*3 */
+@media (min-width: 793px) and (max-width: 1584px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		width: 50%;
 		background-color: #E0C9A6; /* Old Paper Color */
@@ -49,8 +49,8 @@ h2 {
 	}
 
 }
-
-@media (min-width: 2449px) {
+/* Greater than 5.5*3 inches */
+@media (min-width: 1585px) {
 	body.chapter .page:nth-child(3n+1) {
 		clear: left;
 	}
