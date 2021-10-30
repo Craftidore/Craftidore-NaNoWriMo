@@ -3,6 +3,7 @@
 }
 body {
 	font-family: Times New Roman, Times, serif;
+	margin: 0px;
 }
 p {
 	font-size: 16px;
@@ -19,34 +20,42 @@ h2 {
 	font-style: italic;
 }
 
-
 /* Less than a page width (8.5 inches) */
-@media (max-length: 1224px) {
+@media (max-width: 1224px) {
 	body.chapter {
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 	}
 }
 
-@media (min-length: 1225px) and (max-length: 2448px) {
-	
+@media (min-width: 1225px) and (max-width: 2448px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		width: 50%;
-		float: left;
 		background-color: #E0C9A6; /* Old Paper Color */
 		color: black;
 		border-radius: 25px;
 		border: 5px solid #916151;
 	}
+	body.chapter .page:nth-child(odd) {
+		clear: left;
+		float: left;
+	}
+	body.chapter .page:nth-child(even) {
+		float: left;
+	}
 
 }
 
-@media (min-length: 2449) {
+@media (min-width: 2449px) {
+	body.chapter .page:nth-child(3n+1) {
+		clear: left;
+	}
 	.page { /* Applies to a overarching div, which contains sub-elements */
-		width: 816px;
+		width: 33.33%;
 		float: left;
 		background-color: #E0C9A6; /* Old Paper Color */
 		border-radius: 25px;
 		border: 5px solid #916151;
 	}
+
 }
