@@ -19,6 +19,10 @@ h2 {
 .subtitle {
 	font-style: italic;
 }
+.sectionbreak {
+	font-weight: bold;
+	text-align: center;
+}
 
 /* Less than a page width (8.5 inches) */
 @media (max-width: 1224px) {
