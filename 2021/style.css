@@ -54,7 +54,6 @@ ul.menu li:hover {
 @media (max-width: 792px) {
 	.chapter {
 		padding: 3%;
-		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
 		background-size: 300px;
 		border: 1px solid black;
@@ -72,7 +71,6 @@ ul.menu li:hover {
 		padding: 5%;
 		width: 50%;
 		height: 71.2vw;
-		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
 		background-size: 300px;
 		border: 1px solid black;
@@ -95,7 +93,6 @@ ul.menu li:hover {
 		width: 33.33%;
 		height: 47.5vw;
 		/* height: 68.7vw; */
-		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
 		background-size: 500px;
 		border: 1px solid black;
