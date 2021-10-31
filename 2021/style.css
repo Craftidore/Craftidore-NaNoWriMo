@@ -71,6 +71,7 @@ ul.menu li:hover {
 		margin-top: 5%;
 		padding: 5%;
 		width: 50%;
+		height: 71.2vw;
 		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
 		background-size: 300px;
@@ -84,18 +85,16 @@ ul.menu li:hover {
 	.chapter h1 {
 		font-size: 2vw;
 	}
-
 }
 /* Greater than 5.5*3 inches */
 @media (min-width: 1321px) {
-	body.chapter .page:nth-child(3n+1) {
-		clear: left;
-	}
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		margin: auto;
 		margin-top: 5%;
 		padding: 5%;
 		width: 33.33%;
+		height: 47.5vw;
+		/* height: 68.7vw; */
 		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
 		background-size: 500px;
