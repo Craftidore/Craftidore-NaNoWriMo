@@ -7,7 +7,10 @@ body {
 	margin: 0px;
 }
 p {
-	font-size: 16px; 
+	font-size: 16px; /* This should be overwritten by the media queries */
+}
+.page p {
+	text-indent: 1vw; /* Also overwritten by media queries */
 }
 h1 {
 	font-size: 32px;
@@ -53,9 +56,12 @@ ul.menu li:hover {
 		padding: 3%;
 		background-color: #E0C9A6; /* Old Paper Color */
 		background-image: url("./Paper.jpg");
-		background-size: 100px;
+		background-size: 300px;
 		border: 1px solid black;
 		color: black;
+	}
+	.page p {
+		text-indent: 2vw;
 	}
 }
 /* Between 5.5*1.5 inches and 5.5*3 */
@@ -73,6 +79,7 @@ ul.menu li:hover {
 	}
 	.page p {
 		font-size: 1.25vw;
+		text-indent: 1.5vw;
 	}
 	.chapter h1 {
 		font-size: 2vw;
@@ -97,6 +104,7 @@ ul.menu li:hover {
 	}
 	.page p {
 		font-size: 0.75vw;
+		text-indent: 1vw;
 	}
 	.chapter h1 {
 		font-size: 2vw;
