@@ -23,25 +23,56 @@ h2 {
 
 /* Menu and Header */
 ul.menu {
+	color: black;
+	background-color: white;
 	padding-inline-start: 0px;
-	padding: 5px;
-	margin: 25px;
-	width: 150px;
-	background-color: #444455;
 }
 ul.menu li {
-	margin: 5px;
 	list-style: none;
-	background-color: #8585ad;
-	border-radius: 10px;
+}
+ul.menu li > a > div {
+	font-size: 1.5vw;
 	text-align: center;
+	margin: auto;
+	margin-bottom: 0.5vw;
+	border: 0.05vw solid black;
 }
-ul.menu li a:link, ul.menu li a:visited {
-	color: blue;
+ul.menu li > a > div:hover {
+	background-color: #888888;
 }
-ul.menu li:hover {
-	background-color: #ffffff;
+ul.menu li > a:link, ul.menu li > a:visited {
+	color: black;
 }
+
+@media (max-width: 792px) {
+	ul.menu li {
+
+	}
+}
+@media (min-width: 793px) {
+	ul.menu {
+		float: none;
+	}
+	ul.menu li {
+		width: 50%;
+		float: left;
+	}
+	ul.menu li:nth-child(1) {
+		clear: both;
+		width: 100%;
+	}
+	ul.menu li > a > div {
+	}
+	.chapter {
+		float: left;
+		width: 100%;
+	}
+	ul.menu li.full-width {
+		width: 100%;
+	}
+}
+
+
 /* Classes specific to the book */
 .subtitle {
 	font-style: italic;
@@ -60,8 +91,7 @@ ul.menu li:hover {
 		background-image: url("./Paper.jpg");
 		background-size: 300px;
 		border: 1px solid black;
-		color: black;
-	}
+		color: black;	}
 	.page p {
 		text-indent: 3.5vw;
 	}
