@@ -46,6 +46,9 @@ ul.menu li:hover {
 .subtitle {
 	font-style: italic;
 }
+.chapter .subtitle { /* For use with chapter subtitles like "One Month Later" */
+	text-align: center;
+}
 .sectionbreak { /* Meant to be used with <div class="sectionbreak">***</div> */
 	font-weight: bold;
 	text-align: center;
