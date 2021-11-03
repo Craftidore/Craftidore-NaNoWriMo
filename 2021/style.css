@@ -101,7 +101,8 @@ ul.menu li > a:link, ul.menu li > a:visited {
 @media (min-width: 793px) and (max-width: 1320px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		margin: auto;
-		margin-top: 5%;
+		margin-top: 4%;
+		margin-bottom: 4%;
 		padding: 5%;
 		width: 50%;
 		height: 71.2vw;
@@ -122,7 +123,8 @@ ul.menu li > a:link, ul.menu li > a:visited {
 @media (min-width: 1321px) {
 	.page { /* Applies to a overarching div, which contains sub-elements */
 		margin: auto;
-		margin-top: 5%;
+		margin-top: 4%;
+		margin-bottom: 4%;
 		padding: 5%;
 		width: 33.33%;
 		height: 47.5vw;
