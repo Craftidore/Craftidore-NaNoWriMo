@@ -43,10 +43,30 @@ ul.menu li > a > div:hover {
 ul.menu li > a:link, ul.menu li > a:visited {
 	color: black;
 }
-
+ul.tableofcontents {
+	padding-inline-start: 0px;
+}
+ul.tableofcontents > li {
+	list-style: none;
+}
+ul.tableofcontents > li > a {
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 0.5vw;
+	border: 0.05vw solid black;
+}
+ul.tableofcontents > li > a:hover {
+	background-color: #888888;
+}
 @media (max-width: 792px) {
 	ul.menu li > a > div {
 		font-size: 20px;
+	}
+	.main-page {
+		width: 90%;
+		margin: auto;
 	}
 }
 @media (min-width: 793px) {
@@ -69,6 +89,10 @@ ul.menu li > a:link, ul.menu li > a:visited {
 	}
 	ul.menu li.full-width {
 		width: 100%;
+	}
+	.main-page {
+		width: 33.33%;
+		margin: auto;
 	}
 }
 
