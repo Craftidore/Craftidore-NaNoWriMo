@@ -43,13 +43,13 @@ ul.menu li > a > div:hover {
 ul.menu li > a:link, ul.menu li > a:visited {
 	color: black;
 }
-ul.tableofcontents {
+ul#tableofcontents {
 	padding-inline-start: 0px;
 }
-ul.tableofcontents > li {
+ul#tableofcontents > li {
 	list-style: none;
 }
-ul.tableofcontents > li > a {
+ul#tableofcontents > li > a {
 	display: block;
 	font-size: 18px;
 	text-align: center;
@@ -57,7 +57,7 @@ ul.tableofcontents > li > a {
 	margin-bottom: 0.5vw;
 	border: 0.05vw solid black;
 }
-ul.tableofcontents > li > a:hover {
+ul#tableofcontents > li > a:hover {
 	background-color: #888888;
 }
 @media (max-width: 792px) {
