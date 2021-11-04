@@ -20,6 +20,15 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 }
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+small, sub, sup { font-size: .83em }
+sub             { vertical-align: sub }
+sup             { vertical-align: super }
 
 /* Menu and Header */
 ul.menu {
