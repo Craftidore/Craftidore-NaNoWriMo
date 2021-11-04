@@ -45,8 +45,8 @@ ul.menu li > a:link, ul.menu li > a:visited {
 }
 
 @media (max-width: 792px) {
-	ul.menu li {
-
+	ul.menu li > a > div {
+		font-size: 20px;
 	}
 }
 @media (min-width: 793px) {
@@ -96,6 +96,7 @@ ul.menu li > a:link, ul.menu li > a:visited {
 	.page p {
 		text-indent: 3.5vw;
 	}
+
 }
 /* Between 5.5*1.5 inches and 5.5*3 */
 @media (min-width: 793px) and (max-width: 1320px) {
