@@ -4,6 +4,7 @@
 }
 body {
 	font-family: Times New Roman, Times, serif;
+	background-color: #93dee8;
 	margin: 0px;
 }
 p {
@@ -40,6 +41,7 @@ ul.menu li {
 	list-style: none;
 }
 ul.menu li > a > div {
+	background-color: white;
 	font-size: 1.5vw;
 	text-align: center;
 	margin: auto;
@@ -70,7 +72,6 @@ ul#tableofcontents > li > a:hover {
 	background-color: #888888;
 }
 body.main-page {
-	background-color: #93dee8;
 	padding: 25px;
 }
 div.main-page {
