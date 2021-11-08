@@ -113,11 +113,12 @@ div.main-page {
 
 
 /* Classes specific to the book */
-.subtitle {
+.subtitle, .sound {
 	font-style: italic;
 }
-.chapter .subtitle { /* For use with chapter subtitles like "One Month Later" */
+.chapter .subtitle, .sound { /* For use with chapter subtitles like "One Month Later" */
 	text-align: center;
+	text-indent: 0px;
 }
 .sectionbreak { /* Meant to be used with <p class="sectionbreak">***</p> */
 	font-weight: bold;
