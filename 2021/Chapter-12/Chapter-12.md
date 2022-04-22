@@ -36,4 +36,61 @@ Samantha opened the door promptly upon hearing the knock, nodding to Evelyn and 
 
 "We… need to know a bit more about you," Evelyn told her. "I'm sorry that we have to intrude and all that, but it's a necessity if we're going to tell you." Samantha nodded.
 
-"To start off with, I'm Samantha Docker." Samantha lowers her voice for this sentence, as she should, given "Docker" is the name of a duchess of ==Country-name==, and Evelyn vaguely remembered the duchess had a daughter named Samantha. 
+"To start off with, I'm Samantha Docker." Samantha lowers her voice for this sentence.
+"I try not to advertise that for obvious reasons, but I trust you two not to try and weedle me for favors or to try and influence my mother through me. 
+
+Kient glanced around, confused. 
+"I believe she's saying she's the daughter of Duchess Docker, who oversees a sizable portion of ==country name==," Evelyn explained. 
+Kient grimaced. 
+"Heir to someone influential and powerful…" Evelyn muttered. 
+"That's rather inconvenient."
+
+"But if it's already happened?" Kient asks.
+"I mean, she already knows quite a lot… I don't think there's a way for this not to influence the future, which means the future was always so influenced."
+
+"But she didn't have a noteworthy impact on the future, given that you haven't seemed to have noticed her."
+
+"Our primary source for this era is *your* articles…" Kient said. "That mostly just means you didn't write about her—or else your articles on the subject are lost."
+
+"I could end up not writing about her intentionally!" Evelyn declared. "Like, *because* of this," she clarified.
+
+"I'm sitting *right here*… and also very confused," Samantha interjected, breaking the trance of Kient's and Evelyn's discussion.
+
+"It's worth the risk," Kient and Evelyn decided together.
+
+\*\*\*
+
+"Ok, so…" Samantha brainstorms, "if Evelyn wrote an article about how the king was assassintated, and then he wasn't, it would be a 'big' history change, right?" Upon confirmation, she continued, "ok, and if things disappear when history is at risk of not happening the way it's supposed to, why haven't things been disappearing after his failure to be assassinated?"
+
+"Just because we haven't noticed anything disappear, doesn't mean nothing's disappeared," Kient counters.
+
+"Oh? You're the time traveler, and thus the only way to cause these small paradoxes. Shouldn't they be happening near you?"
+
+"That still doesn't mean I'd notice," Kient repeats.
+
+"I don't think you'd not notice; it may just be my theory, but this doesn't seem like it follows any laws of physics. 
+It has to be someone or something intelligent yet outside of time, watching this happen, and signaling you to keep you from destroying the universe or whatever awful thing would happen if you screwed up time." 
+Samantha paused for breath. 
+"Regardless of whether my theory is *right*, I have a far more reasonable conclusion: the king wasn't assassinated today."
+
+"Right, he wasn't. That's the problem," Evelyn said. 
+
+"No, like, he wasn't assassinated today in the past from when Kient lived; 
+I mean that you lied when you wrote that article."
+
+"Why would I do that," Evelyn objected. 
+"I always stick to the facts."
+
+"I'm guessing to signal something to yourself right now," Samantha posits. 
+"Chances are, you didn't change the narrative much; it seems risky to completely falsify events. 
+Even as the primary source for this era, you still have corroborating sources of events around now, yes."
+
+"Of course," Kient confirms. 
+"And we would have noticed if one source said the king got assassinated and none of the others did." 
+Kient seemed to be picking up where Samantha was headed.
+
+"So I'm guessing that the king gets assassinated anyway and there is no war," Samantha concludes. "There isn't—wasn't—a war, right?" 
+
+"No, no; otherwise I'd have found an excuse to get Ev' out of Geria. The king dies, and his much-saner cousin ascends to the throne, immediately putting an end to the ridiculous notion."
+
+"Isn't that far more likely than you not noticing the disappearances which must be happening?"
