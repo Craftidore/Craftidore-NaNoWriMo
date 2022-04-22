@@ -36,4 +36,4 @@ Samantha opened the door promptly upon hearing the knock, nodding to Evelyn and 
 
 "We… need to know a bit more about you," Evelyn told her. "I'm sorry that we have to intrude and all that, but it's a necessity if we're going to tell you." Samantha nodded.
 
-"To start off with, I'm Evelyn
+"To start off with, I'm Samantha Docker." Samantha lowers her voice for this sentence, as she should, given "Docker" is the name of a duchess of ==Country-name==, and Evelyn vaguely remembered the duchess had a daughter named Samantha. 
