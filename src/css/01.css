@@ -1,0 +1,17 @@
+body {
+  background-color: #a0a0a0;
+}
+
+header {
+  background-color: #71797E;
+}
+
+#sidebar a > li, #sidebar a:visited > li {
+  color: black;
+  background-color: #71797E;
+}
+#sidebar a:hover > li {
+  background-color: #a0a0a0;
+}
+
+/*# sourceMappingURL=01.css.map */
