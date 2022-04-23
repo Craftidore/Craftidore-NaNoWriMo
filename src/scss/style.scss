@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    > h1 {
+        float: left;
+	margin:0;
+        padding: 10px 0 10px 0;
+        font-size: 28px;
+    }
+    + div {
+      margin-top: 50px;
+    }
+}
+#sidebar {
+    h1, h2, h3, h4, h5, h6 {
+        margin-top:0;
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+    a, a:visited {
+        text-decoration: none;
+    }
+}
+@media (min-width: 701px) {
+    .page {
+        > :nth-child(1) {
+            position: fixed;
+            top:30px;
+            > ul {
+                overflow-y: scroll;
+                height: calc(100% - 40px);//not sure why this hacky solution is needed. May break.
+            }
+        }
+        > :nth-child(2) {
+            h1, h2, h3, h4, h5, h6 {
+                margin-top: 0;
+            }
+            margin-left: 300px;
+        }
+    }
+    #sidebar {
+        width:300px;
+        height:100%;
+        li {
+            padding: 20px 16px;
+        }
+    }
+    #content {
+        padding:10px;
+    }
+}
+
+@media (max-width: 700px) {
+    #sidebar {
+        display: none;
+        li {
+            padding: 8px 16px;
+        }
+    }
+}

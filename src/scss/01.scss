@@ -1,0 +1,22 @@
+$maincolor: #a0a0a0;
+$accentcolor: #71797E;
+
+body {
+    background-color: $maincolor;
+}
+
+header {
+    background-color: $accentcolor;
+}
+
+#sidebar {
+    a, a:visited {
+        > li {
+            color: black;
+            background-color: $accentcolor;
+        }
+    }
+    a:hover > li {
+        background-color: $maincolor;
+    }
+}

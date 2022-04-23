@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header > h1 {
+  float: left;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  font-size: 28px;
+}
+header + div {
+  margin-top: 50px;
+}
+
+#sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6 {
+  margin-top: 0;
+  padding: 10px;
+}
+#sidebar h2 {
+  font-size: 1.4em;
+}
+#sidebar ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+#sidebar a, #sidebar a:visited {
+  text-decoration: none;
+}
+
+@media (min-width: 701px) {
+  .page > :nth-child(1) {
+    position: fixed;
+    top: 30px;
+  }
+  .page > :nth-child(1) > ul {
+    overflow-y: scroll;
+    height: calc(100% - 40px);
+  }
+  .page > :nth-child(2) {
+    margin-left: 300px;
+  }
+  .page > :nth-child(2) h1, .page > :nth-child(2) h2, .page > :nth-child(2) h3, .page > :nth-child(2) h4, .page > :nth-child(2) h5, .page > :nth-child(2) h6 {
+    margin-top: 0;
+  }
+
+  #sidebar {
+    width: 300px;
+    height: 100%;
+  }
+  #sidebar li {
+    padding: 20px 16px;
+  }
+
+  #content {
+    padding: 10px;
+  }
+}
+@media (max-width: 700px) {
+  #sidebar {
+    display: none;
+  }
+  #sidebar li {
+    padding: 8px 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
