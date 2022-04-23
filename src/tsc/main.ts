@@ -27,11 +27,15 @@ function loadPage(hash:string){
 }
 function parseMarkdown(markdownText:string):string {
 	console.log(markdownText)
-	const htmlText = marked.parse(markdownText);
+	let htmlText = marked.parse(customMarkdownRegex(markdownText));
 	console.log(htmlText);
 
 
 	return htmlText.trim()
+}
+function customMarkdownRegex(markdownText:string) {
+	let partHTMLText = markdownText;
+	return markdownText;
 }
 
 function main() {

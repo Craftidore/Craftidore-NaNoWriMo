@@ -64,6 +64,10 @@ function parseMarkdown(markdownText) {
     console.log(htmlText);
     return htmlText.trim();
 }
+function customMarkdownRegex(markdownText) {
+    var partHTMLText = markdownText;
+    return markdownText;
+}
 function main() {
     // render hash is necessary
     if (location.hash != "" && location.hash != "#") {
