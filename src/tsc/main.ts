@@ -44,6 +44,6 @@ function main() {
 		loadPage(location.hash)
 	}
 	else {
-		loadPage("#000")
+		loadPage("#Home")
 	}
 }
